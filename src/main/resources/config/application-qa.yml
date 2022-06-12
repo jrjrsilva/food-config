@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: service-food
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+service-food:
+  welcome: "Olá"
+  default-value: "Mundo"
